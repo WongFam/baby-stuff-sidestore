@@ -18,6 +18,15 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "0.1.1",
+          "buildVersion": "2",
+          "date": "2026-09-19T00:50:08Z",
+          "localizedDescription": "Build 2.",
+          "downloadURL": "https://github.com/WongFam/baby-stuff-sidestore/releases/download/v0.1.1/BabyStuff.ipa",
+          "size": 2879675,
+          "minOSVersion": "27.0"
+        },
+        {
           "version": "0.1.0",
           "buildVersion": "1",
           "date": "2026-09-19T00:42:11Z",
@@ -28,7 +37,9 @@
         }
       ],
       "appPermissions": {
-        "entitlements": ["keychain-access-groups"],
+        "entitlements": [
+          "keychain-access-groups"
+        ],
         "privacy": {}
       }
     }
