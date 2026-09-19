@@ -18,6 +18,15 @@
       "category": "lifestyle",
       "versions": [
         {
+          "version": "0.1.13",
+          "buildVersion": "14",
+          "date": "2026-09-19T14:29:11Z",
+          "localizedDescription": "Build 14.",
+          "downloadURL": "https://github.com/WongFam/baby-stuff-sidestore/releases/download/v0.1.13/BabyStuff.ipa",
+          "size": 3052546,
+          "minOSVersion": "27.0"
+        },
+        {
           "version": "0.1.12",
           "buildVersion": "13",
           "date": "2026-09-19T07:22:50Z",
