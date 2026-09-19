@@ -1,0 +1,37 @@
+{
+  "name": "Baby Stuff",
+  "identifier": "io.wongfam.baby.source",
+  "subtitle": "The family's baby tracker",
+  "description": "Sideload source for the Baby Stuff iOS app. Unsigned builds; SideStore signs them with your own Apple ID.",
+  "iconURL": "https://raw.githubusercontent.com/WongFam/baby-stuff-sidestore/main/icon.png",
+  "website": "https://baby.wongfam.io",
+  "tintColor": "#5856d6",
+  "apps": [
+    {
+      "name": "Baby Stuff",
+      "bundleIdentifier": "io.wongfam.baby",
+      "developerName": "Max Wong",
+      "subtitle": "Feeds, sleep, growth",
+      "localizedDescription": "The native client for baby.wongfam.io: log feeds and sleeps, see today at a glance, charts against WHO curves. Requires iOS 27.",
+      "iconURL": "https://raw.githubusercontent.com/WongFam/baby-stuff-sidestore/main/icon.png",
+      "tintColor": "#5856d6",
+      "category": "lifestyle",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-09-19T00:42:11Z",
+          "localizedDescription": "First sideload build: sign-in, Today, logging, charts, settings, Siri shortcuts. Push arrives with the paid developer account.",
+          "downloadURL": "https://github.com/WongFam/baby-stuff-sidestore/releases/download/v0.1.0/BabyStuff.ipa",
+          "size": 2879679,
+          "minOSVersion": "27.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": ["keychain-access-groups"],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
